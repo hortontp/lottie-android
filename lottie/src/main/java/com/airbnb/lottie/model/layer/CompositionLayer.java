@@ -4,6 +4,10 @@ import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.RectF;
+import android.support.annotation.FloatRange;
+import android.support.annotation.Nullable;
+import android.support.v4.util.LongSparseArray;
+
 
 import com.airbnb.lottie.L;
 import com.airbnb.lottie.LottieComposition;
@@ -19,9 +23,6 @@ import com.airbnb.lottie.value.LottieValueCallback;
 import java.util.ArrayList;
 import java.util.List;
 
-import androidx.annotation.FloatRange;
-import androidx.annotation.Nullable;
-import androidx.collection.LongSparseArray;
 
 public class CompositionLayer extends BaseLayer {
   @Nullable private BaseKeyframeAnimation<Float, Float> timeRemapping;

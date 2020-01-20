@@ -1,7 +1,11 @@
 package com.airbnb.lottie;
 
-import androidx.annotation.RestrictTo;
-import androidx.core.os.TraceCompat;
+import android.support.annotation.RestrictTo;
+import android.support.v4.os.TraceCompat;
+import android.util.Log;
+
+import java.util.HashSet;
+import java.util.Set;
 
 @RestrictTo(RestrictTo.Scope.LIBRARY)
 public class L {
