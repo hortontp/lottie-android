@@ -3,6 +3,7 @@ package com.airbnb.lottie.animation.content;
 import android.graphics.Path;
 import android.graphics.PointF;
 import android.graphics.RectF;
+import android.support.annotation.Nullable;
 
 import com.airbnb.lottie.LottieDrawable;
 import com.airbnb.lottie.LottieProperty;
@@ -17,7 +18,6 @@ import com.airbnb.lottie.value.LottieValueCallback;
 
 import java.util.List;
 
-import androidx.annotation.Nullable;
 
 public class RectangleContent
     implements BaseKeyframeAnimation.AnimationListener, KeyPathElementContent, PathContent {

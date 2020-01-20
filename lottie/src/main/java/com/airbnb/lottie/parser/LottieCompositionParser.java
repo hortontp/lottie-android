@@ -1,6 +1,8 @@
 package com.airbnb.lottie.parser;
 
 import android.graphics.Rect;
+import android.support.v4.util.LongSparseArray;
+import android.support.v4.util.SparseArrayCompat;
 
 import com.airbnb.lottie.LottieComposition;
 import com.airbnb.lottie.LottieImageAsset;
@@ -18,8 +20,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import androidx.collection.LongSparseArray;
-import androidx.collection.SparseArrayCompat;
 
 
 public class LottieCompositionParser {
